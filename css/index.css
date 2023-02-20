@@ -1,0 +1,79 @@
+#content {
+    width: 100%;
+}
+#slid_vanner {
+    position: relative;
+    height: 370px;
+}
+#slid_vanner .le {
+    position: absolute;
+    top: 50%;
+    left: 270px;
+    display: none;
+}
+#slid_vanner .re {
+    position: absolute;
+    top: 0;
+    right: 210px;
+    top: 50%;
+    display: none;
+}
+#slid_vanner:hover p{
+    display: block;
+}
+
+#mini_vanner{
+    width: 1050px;
+    height: 610px;
+    margin: 0 auto;
+}
+.tit1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 50px;
+
+}
+.slid_wapper ul{
+    display: inline-block;
+}
+.slid_wapper ul li {
+    float: left;
+    margin: 30px 6px 0 6px;
+}
+.slid_wapper ul li img{
+    width: 249px;
+    height: 320px;
+}
+.slid_wapper .t1{
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 400;
+    color: #333;
+}
+.slid_wapper .t2 {
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #333;
+}
+
+.slid_wapper .t3 {
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #999;
+}
+
+#long_vanner{
+    width: 1050px;
+    height: 220px;
+    margin: 0 auto;
+}
+#long_vanner img {
+    width: 1050px;
+    height: 140px;
+}

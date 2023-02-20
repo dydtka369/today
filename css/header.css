@@ -1,0 +1,142 @@
+header {
+    width: 100%;
+    height: 154px;
+}
+#header_inner {
+    position: fixed;
+    box-shadow: 4px 4px 4px #ccc;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    margin: 0 auto;
+}
+.sub_login {
+    text-align: right;
+    margin-top: 7px;
+}
+
+.sub_login ul {
+    display: inline-block;
+}
+nav {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.sub_login ul li {
+    float: left;
+    padding: 5px;
+    border-right: 1px solid #ccc;
+    font-size: 12px;
+    font-weight: bold;
+}
+.sub_login ul li a{
+    color: #333;
+}
+.sub_login ul li:last-child {
+    border: 0;
+}
+.gnb_mid h1 {
+    width: 82px;
+    height: 42px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.gnb_mid h1 img {
+    width: 82px;
+    height: 42px;
+}
+
+.sub_menu {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sub_menu ul {
+    float: left;
+}
+.sub_menu ul li {
+    float: left;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    
+}
+.sub_menu ul li:last-child{
+    border: 0;
+}
+.search {
+    display: inline-block;
+    text-align: center;
+    width: 390px;
+    height: 40px;
+    border: 1px solid #5f0080;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+.search input {
+    font-size: 16px;
+    width: 325px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    float: left;
+}
+.search button {
+    width: 45px;
+    height: 100%;
+    border: 0;
+    background: #5f0080;
+    outline: none;
+    float: right;
+    color: #fff;
+}
+
+.sub {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    
+}
+
+.sub ul {
+    display: inline-block;
+    
+}
+.sub ul li{
+    float: left;
+    margin: 7px;
+}
+.all {
+    margin-top: 25px;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.gnb_menu {
+    display: inline-block;
+    text-align: center;
+}
+.gnb_menu ul {
+    display: inline-block;
+    margin-left: 70px;
+}
+.gnb_menu ul li {
+    float: left;
+    margin: 25px 70px 10px 70px;
+}
+.gnb_menu ul li a{
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
